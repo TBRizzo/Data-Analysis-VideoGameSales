@@ -16,6 +16,8 @@
 
 The main objective of this project was to analyze the historical data of video game sales to draw conclusions about which parameters are most critical for success in creating a game and then compare the insights with the results of a regression model.
 
+Tableau: https://public.tableau.com/app/profile/thomaz.rizzo/viz/Final_Project_16785668158970/VideoGamesSalesDA?publish=yes
+
 ## 🛠 Data Analysis (Tableau):
 
 Analyzing the dashboard itself we could observe that:
