@@ -1,6 +1,6 @@
 <h1 align="center"><img src="https://bit.ly/2VnXWr2" width="60">
 
-<h1 align="center">Machine Learning: Diamond Price Prediction with Linear Regression </h1>
+<h1 align="center">Data Analysis: Video Games Sales</h1>
 
 <p align="center"> Final project developed in the Ironhack Data Analysis Bootcamp </h1>
 
