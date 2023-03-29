@@ -20,19 +20,30 @@ Tableau: https://public.tableau.com/app/profile/thomaz.rizzo/viz/Final_Project_1
 
 ## 🛠 Data Analysis (Tableau):
 
-Analyzing the dashboard itself we could observe that:
+Sales:
 
-Sales Over the Years:
+- If we look at the 2016 scenario, the North American region is the biggest video games’ market in terms of sales in 2016. Which suggests that NA players' preferences should be taken into serious consideration by game developers;
 
-- Despite the drop in the curve, this does not mean that the market has weakened, quite the opposite, as the dataset only shows the year the game was released and the total sales through 2016. It is natural that games released more recently have fewer sales (with a few exceptions).
+- Despite the drop in the curve, this does not mean that the market has weakened, quite the opposite, as the dataset only shows the year the game was released and the total sales through 2016. It is natural that games released more recently have fewer sales (with a few exceptions). If data showed the sales per year, the curve would probably be growing continuously.
 
-Genre/Platform (Manufacturer)/Rating:
+- Games released in 2008 has the most sales in 2016 compare to others. This makes 2008 a very important year for the video games industry, which was when the 7th generation of consoles were launched (Xbox360, PS3, Wii, DS and PSP).
 
-- We can see that the Action, Sports and Shooter genres have had the most sales over the years.
+Platform (Manufacturer):
 
-- In relation to the platform (or in a more simplified way, the manufacturer), we could observe that the most successful games belonged to Sony, Nintendo and Microsoft platforms.
+- Top selling manufacturers were Nintendo, Sony and Microsoft, respectively.
 
-- Regarding rating, the best ones were Everyone (E), Teen (T) and Mature (E).
+Genre:
+
+- We can see that the Action, Sports and Shooter genres, in that order, have had the most sales over the years.
+
+- If we filter each of the top 3 manufacturers (Nintendo, Sony and Microsoft) the top 3 genres varies:
+    - Nintendo top genres are Platform, Action and Misc (even with 'Wii Sports'/'Wii Sports Resort' being in the top 4 best selling video games in history!);
+    - Sony top genres are Action, Sports and Shooter;
+    - Microsoft top genres are Shooter, Action and Sports.
+
+Rating:
+
+- The most popular ratings in terms of total sales were E (Everyone), T (teens) and M (Mature).
 
 ## 🛠 Data Analysis (Machine Learning):
 
