@@ -47,36 +47,21 @@ Rating:
 
 ## 🛠 Data Analysis (Machine Learning):
 
-Analyzing the chosen model (Model 1) and the coefficients of the variables considered (plotted alongside), we can draw some conclusions:
+Of the three models, the one with the best parameters was the first model, although the parameters obtained were not satisfactory.
 
-1) Considering theaverage sales value (US$ 690k) and the RMSE (US$ 430k), one can say that the RMSE was relatively high (i.e. a forecast of US$ 430k made from sales, a value not too far from the average, can actually be a total sales failure and result in US$ 0 in sales).
+R²: The value was a little low, as it only explains 46% of the variability of the response data around its mean.
 
-2) If we compare with the historical analysis done before the modeling, we also find some divergences:
+RMSE: If we look at the average sales value (US$ 690k), we can say that the RMSE was relatively high (i.e. a forecast of US$ 430k made from sales, a value not too far from the average, can actually be a total sales failure and result in US$ 0 in sales).
 
-Rating:
-- K-A rating and RP are the variables with the highest index, while in the initial analysis we found that these variables were a minority (RP even not even appearing in the database). Even after artificially filling the data with the 'mode',these values remained very low and it does not make much sense to be as determinants of large number of sales.
-
-Manufacturer:
-- Here in fact it was found that Sony, Nintendo and Microsoft manufacturers are the most determinants, which was found in the initial analysis.
-
-Genre:
-- The genre variable was left in the middle ground. Some values make sense, like 'action', 'sports' and 'shooter', which are the top 3 best selling genres. But there is a divergence when assigning a high index to the simulation genre, for example, which was the fourth worst.
-
-The model ended up performing in an average way and it is necessary to do more tests to obtain a more faithful model.
+ß values: As shown in the graph below, the variables that have the most positive influence on the amount of sales, according to the model, are K-A and RP ratings, Nintendo and Sony manufacturers, and Misc and Fighting genres.
 
 ##  💻 Result Analysis:
 
-Analyzing the dashboard itself seems to be more reliable than looking at linear regression models to predict sales of a video game based on history. 
+The analyses obtained from the historical data (dashboard) proved to be more enlightening for decision making, due to the not so satisfactory results of the linear regression models.
 
-As we can see, games made by Nintendo, followed by Sony and Microsoft, are the most successful historically.
+The gaming industry grows every year, so looking at this history before creating a new game or even investing in a game given its parameters of what platform it will be released on, what genre and rating, and what region the market will focus on, is very important.
 
-Just as the most successful genres for each platform are:
-
-- Nintendo: Platform, Action, Misc, Sports and Role-Playing;
-- Sony: Action, Sports, Shooter, Racing and Role-Playing;
-- Microsoft: Shooter, Action, Sports, Misc, and Racing. 
-
-The next steps would be to create more regression models (not necessarily linear), to get better results and create a more assertive forecast to predict the number of sales.
+The next steps to complement this analysis would be the development of better regression models (testing other types of regression, not only linear) to try to find a model that makes a more assertive prediction, using the parameters of the database.
 
 ## 🛠 Data Sources:
 
