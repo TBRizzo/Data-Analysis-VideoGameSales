@@ -49,11 +49,11 @@ Rating:
 
 Of the three models, the one with the best parameters was the first model, although the parameters obtained were not satisfactory.
 
-R²: The value was a little low, as it only explains 46% of the variability of the response data around its mean.
+- R²: The value was a little low, as it only explains 46% of the variability of the response data around its mean.
 
-RMSE: If we look at the average sales value (US$ 690k), we can say that the RMSE was relatively high (i.e. a forecast of US$ 430k made from sales, a value not too far from the average, can actually be a total sales failure and result in US$ 0 in sales).
+- RMSE: If we look at the average sales value (US$ 690k), we can say that the RMSE was relatively high (i.e. a forecast of US$ 430k made from sales, a value not too far from the average, can actually be a total sales failure and result in US$ 0 in sales).
 
-ß values: As shown in the graph below, the variables that have the most positive influence on the amount of sales, according to the model, are K-A and RP ratings, Nintendo and Sony manufacturers, and Misc and Fighting genres.
+- ß values: As shown in the graph below, the variables that have the most positive influence on the amount of sales, according to the model, are K-A and RP ratings, Nintendo and Sony manufacturers, and Misc and Fighting genres.
 
 ##  💻 Result Analysis:
 
